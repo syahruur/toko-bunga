@@ -1,3 +1,4 @@
+![Toko Bunga](./public/img/toko-bunga.png)
 # Toko Bunga
 
 <p align="center">
