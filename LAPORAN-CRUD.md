@@ -12,9 +12,9 @@ Toko Bunga adalah aplikasi web berbasis Laravel + Livewire yang menerapkan konse
 
 ---
 
-## 2. Rancangan Database (Detail)
+## 2. Rancangan Database
 
-### 2.1. ERD (Entity Relationship Diagram) Detail
+### 2.1. ERD (Entity Relationship Diagram)
 
 ```mermaid
 erDiagram
@@ -74,7 +74,7 @@ erDiagram
     }
 ```
 
-### 2.2. Contoh Data (Sample)
+### 2.2. Contoh Data
 
 - **User**: name, email, password (hash), role
 - **Product**: name, description, stock, price, image
@@ -85,7 +85,7 @@ erDiagram
 
 ---
 
-## 3. Workflow CRUD & User Journey (Mermaid)
+## 3. Workflow CRUD & User Journey
 
 ### 3.1. Workflow Customer (Dari Registrasi hingga Pesan Selesai)
 ```mermaid
@@ -118,7 +118,7 @@ flowchart TD
     AD -->|Tambah/Edit/Hapus| AI[Database User]
 ```
 
-### 3.3. Workflow CRUD Produk (Detail)
+### 3.3. Workflow CRUD Produk
 ```mermaid
 sequenceDiagram
     participant Admin
@@ -132,7 +132,7 @@ sequenceDiagram
     Livewire-->>UI: Update tampilan & notifikasi
 ```
 
-### 3.4. Workflow CRUD Order (Detail)
+### 3.4. Workflow CRUD Order
 ```mermaid
 sequenceDiagram
     participant Customer
@@ -211,7 +211,7 @@ public function product() { return $this->belongsTo(Product::class); }
 
 ---
 
-## 6. Visualisasi Alur CRUD (Mermaid)
+## 6. Visualisasi Alur CRUD
 
 ### 6.1. Alur CRUD Produk
 ```mermaid

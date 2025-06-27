@@ -164,7 +164,7 @@ Script ini akan otomatis menghentikan semua proses node (Vite) dan php (Artisan 
 
 ## Lisensi
 
-[MIT](./LICENSE). Silakan gunakan, modifikasi, dan kembangkan untuk kebutuhan Anda.
+[MIT](./LICENSE)
 
 ---
 
